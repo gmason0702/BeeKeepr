@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeKeeprMVC", "BeeKeeprMVC\BeeKeeprMVC.csproj", "{8DB001D4-EDA2-41D2-973B-157F19DD542A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BE7B7F1C-BB7D-4E00-A216-E09C4B1A68FE} = {BE7B7F1C-BB7D-4E00-A216-E09C4B1A68FE}
+		{044E92BD-624F-4CC0-9F91-045BAAAAB73A} = {044E92BD-624F-4CC0-9F91-045BAAAAB73A}
+		{C27B25D1-7E72-4BB4-92BC-A4655F936B72} = {C27B25D1-7E72-4BB4-92BC-A4655F936B72}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeKeepr.Data", "BeeKeepr.Data\BeeKeepr.Data.csproj", "{C27B25D1-7E72-4BB4-92BC-A4655F936B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeKeepr.Models", "BeeKeepr.Models\BeeKeepr.Models.csproj", "{BE7B7F1C-BB7D-4E00-A216-E09C4B1A68FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeeKeepr.Services", "BeeKeepr.Services\BeeKeepr.Services.csproj", "{044E92BD-624F-4CC0-9F91-045BAAAAB73A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DB001D4-EDA2-41D2-973B-157F19DD542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB001D4-EDA2-41D2-973B-157F19DD542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB001D4-EDA2-41D2-973B-157F19DD542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB001D4-EDA2-41D2-973B-157F19DD542A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C27B25D1-7E72-4BB4-92BC-A4655F936B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C27B25D1-7E72-4BB4-92BC-A4655F936B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C27B25D1-7E72-4BB4-92BC-A4655F936B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C27B25D1-7E72-4BB4-92BC-A4655F936B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE7B7F1C-BB7D-4E00-A216-E09C4B1A68FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7B7F1C-BB7D-4E00-A216-E09C4B1A68FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7B7F1C-BB7D-4E00-A216-E09C4B1A68FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE7B7F1C-BB7D-4E00-A216-E09C4B1A68FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{044E92BD-624F-4CC0-9F91-045BAAAAB73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{044E92BD-624F-4CC0-9F91-045BAAAAB73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{044E92BD-624F-4CC0-9F91-045BAAAAB73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{044E92BD-624F-4CC0-9F91-045BAAAAB73A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A95AE5B-017C-41DC-B3D4-D645E58CAF32}
+	EndGlobalSection
+EndGlobal
